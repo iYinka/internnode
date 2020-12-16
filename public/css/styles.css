@@ -1,0 +1,35 @@
+
+.page {
+    position: relative;
+    left: 70px;
+  }
+  body {
+    background-color: #E8ECEF;
+  }
+  
+  #form {
+    padding: 1rem;
+  }
+  
+  .mt-5 {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 100px auto;
+    width: 500px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  .centered {
+      padding-top: 200px;
+      text-align: center;
+  }
+  
+  .secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+  }
+  
