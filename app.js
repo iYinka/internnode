@@ -83,7 +83,7 @@
 
 
     //setup mongoose  process.env.MONGODB_CONNECTION_STRING
-    mongoose.connect(process.env.MONGO_PASS, {
+    mongoose.connect("mongodb://localhost:27017/internnodeDB", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true
