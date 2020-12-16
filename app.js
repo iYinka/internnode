@@ -83,7 +83,7 @@
 
 
     //setup mongoose  process.env.MONGODB_CONNECTION_STRING
-    mongoose.connect("mongodb://localhost:27017/internnodeDB", {
+    mongoose.connect("mongodb+srv://admin-Victor:VtZelkGh0tX0EN8c@cluster0.26zjc.mongodb.net/internnodeDB?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true
