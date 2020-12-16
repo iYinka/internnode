@@ -84,7 +84,7 @@
 
 
     //setup mongoose  process.env.MONGODB_CONNECTION_STRING
-    mongoose.connect("mongodb+srv://admin-Victor:VtZelkGh0tX0EN8c@cluster0.26zjc.mongodb.net/internnodeDB?retryWrites=true&w=majority", {
+    mongoose.connect(process.env.MONGO_PASS, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true
